@@ -18,6 +18,7 @@ public class BuilderTest {
         assertTrue("Programmer should be 'F L' but was '"+ programmer+"'", programmer.toString().equals("F L Street 39 0000A"));
     }
 
+
 }
 
 class Programmer {
