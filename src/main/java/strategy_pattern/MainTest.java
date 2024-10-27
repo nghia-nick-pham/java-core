@@ -9,6 +9,7 @@ public class MainTest {
 
     public static void main(String[] args) {
 
+        System.out.println("test");
         PaymentContest payments = new PaymentContest();
         payments.addPayment(new CreditPayment(1000, new Date()));
         payments.addPayment(new CreditPayment(2000, new Date()));
